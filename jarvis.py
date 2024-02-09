@@ -25,7 +25,7 @@ def wishMe():
         speak("Good Afternoon Rajeev!")   
 
     else:
-        speak("Good Evening Rajeev!")  
+        speak("Good Evening Rajeev!")   
 
     speak("I am Jarvis. Welcome Back. Please tell me how may I help you")       
 
@@ -125,7 +125,7 @@ def takeCommand():    # It takes microphone input from the user and returns stri
     try:
         print("Recognizing...")
         query = r.recognize_google(audio, Language = 'en-in')
-        print(f"User said: {query}\n")
+        print(f"User said: {query}\n")   #query will be printed 
     
     except Exception as e:
 #         print(e)      # It will print the error
